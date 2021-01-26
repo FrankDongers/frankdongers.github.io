@@ -3,39 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Animated comments on embedded youtube video</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://daneden.github.io/animate.css/animate.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 
-<h1>Youtube video with animated comments</h1>
-<h2>Play video in <a target="_blank" href="/kor/full/lsoKu">Codepen <strong>full screen mode</strong></a> to see effects.</h2>
-
-<p class="visuallyhidden">Video about a woman who is afraid of anything boxy.</p>
+<h1>Video Annotations Demo</h1>
 
 <div id="wrapper">
     <div id="player"></div>
-    <button id="again">Again (= reload page)</button>
-<p>With help of libraries by <a href="https://github.com/daneden/animate.css" target="_blank">Dan Eden</a>, <a href="https://github.com/rlemon/Notifier.js" target="_blank">Robert Lemon</a> and <a href="https://cssdemos.tupence.co.uk/speech-bubbles.htm" target="_blank">Grains Of Sand</a></p>
-  <p>YouTube code removes inline CSS in editor mode for some reason.</p>
+    <button id="again">Reload Video</button>
 </div>
 
 
   
 <div id="annotations">
-  <p data-starttime="6"
-     data-stoptime="11"
+  <p data-starttime="15"
+     data-stoptime="25"
      data-positionTop="120"
      data-positionHorizontalCentre="100">
-    <a href="url">Apple APPL</a>
+    <a href="https://finance.yahoo.com/quote/TSLA" target=”_blank”> TSLA +1.32 </a>
   </p>
   
 </div>
 
 <script>
     var video = {
-        ID: "Ow0lr63y4Mw",
+        ID: "NOWoA87GMbY",
         start: 6,
         stop: 364
     };

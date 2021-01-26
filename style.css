@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 html, body {
@@ -29,15 +30,22 @@ h2 {
     color: #bbb;
 }
 
+h5{
+    color: #03873c;
+    font-size: 20px;
+
+}
+
 a {
-  color: #999;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 ul {
     margin-top: 1em;
     font-size: 1.2em;
 }
-
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
@@ -52,9 +60,6 @@ ul {
     position: absolute;
     width: 1px;
 }
-
-
-
 
 
 #wrapper {
@@ -192,7 +197,8 @@ iframe {
 
     text-shadow: 1px 1px 3px #222;
 
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    /*font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;*/
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 2em;
 
     /*padding: 140px;*/
