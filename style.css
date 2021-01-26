@@ -97,7 +97,7 @@ iframe {
     background: rgba(0,0,0,0.7);
     color: #eee;
     height:390px;
-    width: 10px;
+    width: 640px;
 }
 
 #player, #annotations .cover {
@@ -415,4 +415,3 @@ body #annotations p.thought:after {
     box-shadow: none;
 
 }
-
